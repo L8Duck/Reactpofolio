@@ -1,9 +1,9 @@
 // Enter all your detials in this file
 // Logo images
 import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+import logo from "./assets/logo.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.png";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -23,9 +23,6 @@ import figma from "./assets/techstack/figma.png";
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -35,60 +32,42 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
-  img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  name: "Nguyen Dang Khoa",
+  tagline: "I am a web developer",
+    img: profile,
+  about: `I'm have been study at Can Tho University since 2022. Now I'm a junior student in Data communication and computer network. My research interests include web development with frontend as React and backend as Nodejs-expressjs.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
+  linkdein: "www.linkedin.com/in/ndkhoa1000",
+  github: "https://github.com/L8Duck",
+  twitter: "https://twitter.com/Khoa_nguyen28",
   instagram: "https://www.instagram.com/",
 };
-
-// Enter your Work Experience here
-export const workDetails = [
-  {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Position: "Bachelor in Data Communication and Computer network",
+    Company: `Can Tho University`,
+    Location: "Vietnam",
+    Type: "Ongoing",
+    Duration: "Aug 2022 - Present",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Position: "Fullstack developer Cerificate",
+    Company: "Zero to Master",
+    Location: "Online",
+    Type: "Completed",
+    Duration: "May 2023 - Oct 2023",
+  },
+  {
+    Position: "Python developer Cerificate",
+    Company: "Zero to Master",
+    Location: "Online",
+    Type: "Completed",
+    Duration: "Jun 2024 - Aug 2024",
   },
 ];
 
@@ -113,63 +92,33 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Smart brain",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `A fullstack app with PERN stack as essential AI platform`,
+    techstack: "React, ExpessJS, NodeJS, PostgreSQL",
+    previewLink: "https://smartbrain.io/",
+    githubLink: "https://github.com/L8Duck/smart-brain",
   },
   {
-    title: "Project title 2",
+    title: "Pola",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `A beautiful Web to celebrate Motherday for Japan Explore company`,
+    techstack: "ThreeJS,JavaScript, Python",
+    previewLink: "https://www.pola.co.jp/special/o/wecaremore/mothersday/",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 3",
+    title: "AnoKuni",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `3D web stimulate car game on top of NodeJS`,
+    techstack: "ThreeJS, NodeJS, JavaScript",
+    previewLink: "https://threejs.org/examples/webgl_materials_car.html",
     githubLink: "https://github.com",
   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "ndkhoa1000@gmail.com",
+  phone: "+0914 143 143",
 };
